@@ -1,0 +1,1 @@
+function palindrome (true,false)
