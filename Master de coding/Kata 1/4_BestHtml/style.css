@@ -1,0 +1,13 @@
+/* TODAS LAS ETIQUETAS PRESENTES */
+* {
+    font-family: Arial;
+}
+
+.descripcion {
+    display:block;
+}  
+
+.entrada {
+display: block;
+margin-bottom: 10px;
+}

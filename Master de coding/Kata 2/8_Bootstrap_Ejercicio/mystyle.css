@@ -1,0 +1,25 @@
+body {
+    background: black;
+}
+
+.mytext {
+    color:white;
+}
+
+
+.padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.fontsize {
+    font-size: 50%;
+}
+
+.fontsizes {
+    font-size: 60%;
+}
+
+.backround {
+    background-color: #F32013;
+}

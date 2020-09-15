@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8"   />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Este sitio es un ejemplode cómo utilizar correctamente html" name="descripcion" />
+    <meta content="DEV:F, Master en coding, HTML, inputs, ARIA" name="keywords">
+    <!-- siempre tener 10 keywords como máximo son meta por ser metadatos -->
+    <meta content="https://media.diariolasamericas.com/adjuntos/216/imagenes/001/997/0001997091.jpeg" name="image">
+    <link rel="stylesheet" href="style.css">
+    <meta content="es-MX" http-equiv="content-language" />
+   <title>HTML inputs</title>
+</head>
+<body>
+
+    <form aria-label="Pequeño formulario demostrativo de distintos tipos de inputs">
+        <label class="descripcion" for="Nombre">Ingresa tu nombre </label>
+        <input aria-label="Coloca tu nombre aqui" class="entrada" type="text" name="Nombre"
+            placeholder="Santiago Graue de Palacio" />
+
+        <label class="descripcion">Dame un Numero </label>
+        <input class="entrada" type="number" name="Numero" max="10" min="0" placeholder="0-10" />
+
+        <label class="descripcion" for="Telefono">Dame tu telefono</label>
+        <input class="entrada" type="tel" name="Telefono" autocomplete="off" />
+
+        <label class="descripcion" for="Email">Dame tu correo</label>
+        <input class="entrada" type="email" name="Email">
+
+        <label class="descripción" for="Calendario">Calendario</label>
+        <input class="entrada" type="date" name="Calendario">
+
+        <label class="descripción" for="Rango de Numero">Rango</label>
+        <input class="entrada" type="range" name="Rango">
+
+        <label class="descripción" for="Color">Dame un color</label>
+        <input class="entrada" type="color" name="Color">
+
+        <label for="Azul">Azul</label>
+        <input type="checkbox" name="Azul">
+
+        <label for="Verde">Verde</label>
+        <input type="checkbox" name="Verde">
+
+        <label for="Amarillo">Amarillo</label>
+        <input type="checkbox" name="Amarillo">
+
+        <label for="Mazda"> Mazda</label>
+        <input type="radio" name="Autos">
+
+        <label for="Volkswagen">Volkswagen</label>
+        <input type="radio" name="Autos">
+
+        <label for="Volvo">Volvo</label>
+        <input type="radio" name="Autos">
+
+        <label class="descripción" for="Historia">Coloca una Historia</label>
+        <textarea class="entrada" name="Historia" id="" cols="30" rows="10"> </textarea>
+
+
+        <input type="submit" value="Enviar a mi BD imaginaria">
+    </form>
+
+
+</body>
+
+</html>
