@@ -1,0 +1,33 @@
+
+.contenedor1{
+    height: 900px;
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.random{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    border: 1px solid black;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.contenedor2{
+height: 900px;
+width: 400px;
+margin-left: 100px;
+border: 1px solid black;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column;
+}

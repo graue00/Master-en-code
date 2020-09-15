@@ -1,0 +1,12 @@
+/*Selector de etiqueta*/
+h1 {
+    color:blue;
+}
+p{
+color: blueviolet;
+
+}
+/*Selector de clase*/
+.parrafo{
+    color: black;
+}

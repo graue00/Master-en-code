@@ -1,0 +1,58 @@
+.navbar{
+ background-color: salmon;  
+height: 80px;
+}
+
+html, body {
+margin: 0;
+height: 100%;
+    }
+
+main {
+    background: url(https://paranoidandroid.co/assets/wallpapers/2018/submerged_desktop_thumb.jpg) center center fixed;
+   -webkit-backround-size: cover;
+   -moz-backround-size: cover;
+   -o-backround-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+.logo {
+    height: 200px;
+    background-color: blue;
+}
+
+.search{
+    height: 70px;
+    background-color: greenyellow;
+}
+
+.links{
+    height: 200px;
+    background-color: black;
+}
+
+.links-first-row {
+    background-color: orange;
+    height: 50%;
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.links-second-row {
+    background-color: pink;
+    height: 50%;
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.loguito {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 24.5%;
+    background-color: purple;
+
+}
